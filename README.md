@@ -5,7 +5,6 @@ Update parameter Host with the IP of your Nimbus Windows Virtual Machine or VM t
 
 This script was created with best practices, so it is more resilient, such as:
 * Transaction naming
-* No add cookies
 * No third party
 * One validation per transaction
 * Think times at the end of each transaction to better simulate user behavior

@@ -6,15 +6,14 @@ Action()
 Updated: 04.2025  
 Script created by Salvador Camacho
 
-Update Host parameter Host with the IP of your Nimbus Windows Virtual Machine or VM that has SiteScope
+Update parameter Host with the IP of your Nimbus Windows Virtual Machine or VM that has SiteScope
 
 This script was created with best practices, so it is more resilient, such as:
 * Transaction naming
-* No add cookies
 * No third party
 * One validation per transaction
 * Think times at the end of each transaction to better simulate user behavior
-* Main URL parametrized, Nimbus AOS by default: (http://nimbusserver.aos.com:8000)
+* Nimbus Windows Host IP parametrized
 
 This script uses RDP to connect to the Nimbus Windows VM that has SiteScope, it launches it, clicks on the AOS Monitor folder, exits SiteScope and closes RDP connection
 
