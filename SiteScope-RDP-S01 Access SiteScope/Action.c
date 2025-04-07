@@ -163,7 +163,7 @@ lr_end_transaction("SiteScope-RDP-S01-05 Launch SiteScope",LR_AUTO);
 	lr_think_time(10);
 	
 
-lr_start_transaction("SiteScope-RDP-S01-06 Click on AOS Monitor Folder");
+lr_start_transaction("SiteScope-RDP-S01-06 Click on SiteScope Folder");
 
 	rdp_sync_on_image("StepDescription=Image Synchronization 5", 
 		"WaitFor=Appear", 
@@ -180,7 +180,7 @@ lr_start_transaction("SiteScope-RDP-S01-06 Click on AOS Monitor Folder");
 		"Origin=Default", 
 		RDP_LAST);
 
-lr_end_transaction("SiteScope-RDP-S01-06 Click on AOS Monitor Folder",LR_AUTO);
+lr_end_transaction("SiteScope-RDP-S01-06 Click on SiteScope Folder",LR_AUTO);
 
 	lr_think_time(10);
 	
